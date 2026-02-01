@@ -142,7 +142,7 @@ export default function MessagesPage() {
                           borderRadius: msg.mine ? "16px 16px 4px 16px" : "16px 16px 16px 4px",
                           padding: "10px 14px", fontSize: 13.5, lineHeight: 1.5,
                         }}>{msg.text}</div>
-                        <div style={{ color: "var(--text-muted)", fontSize: 10.5, marginTop: 4, textAlign: msg.mine ? "right" : "left", paddingX: 2 }}>{msg.time}</div>
+                        <div style={{ color: "var(--text-muted)", fontSize: 10.5, marginTop: 4, textAlign: msg.mine ? "right" : "left", paddingLeft: 2 }}>{msg.time}</div>
                       </div>
                     </div>
                   ))}
